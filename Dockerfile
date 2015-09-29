@@ -23,5 +23,5 @@ cmd ssserver -s "$SERVER" \
              -k "${PASSWORD}" \
              -m "$METHOD" \
              -t "$TIMEOUT" \
-             --workers "$WORKERS"
+             --workers "$WORKERS" -v
 
