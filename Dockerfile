@@ -20,7 +20,7 @@ EXPOSE $SERVER_PORT
 
 cmd ssserver -s "$SERVER" \
              -p "$SERVER_PORT" \
-             -k "${PASSWORD}" \
+             -k "$PASSWORD" \
              -m "$METHOD" \
              -t "$TIMEOUT" \
              --workers "$WORKERS" -v
